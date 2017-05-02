@@ -1,0 +1,42 @@
+/*========================================================
+          Sitewide Styles
+==========================================================*/
+/*multiple selector*/
+* {
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  background: #ededed;
+  font-family: 'Lato', sans-serif;
+  color: #696e70;
+}
+
+/*========================================================
+          Top Section - Navigation
+========================================================*/
+nav {
+  margin: 0 auto;
+  padding: 25px 2% 10px 2%;
+
+}
+
+/*========================================================
+          Sections
+========================================================*/
+
+input {
+  margin: 10px 0;
+  padding: 10px 1px;
+  padding-right: 20px;
+}
+
+button {
+  border-style: none;
+  background-color: orange;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+}
