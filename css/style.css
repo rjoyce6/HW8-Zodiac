@@ -8,35 +8,68 @@
 
 body {
   margin: 0 auto;
-  background: #ededed;
+  background: black;
   font-family: 'Lato', sans-serif;
-  color: #696e70;
-}
-
-/*========================================================
-          Top Section - Navigation
-========================================================*/
-nav {
-  margin: 0 auto;
-  padding: 25px 2% 10px 2%;
+  color: black;
+  background-image: url(../img/milky-way.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  margin-top: 0;
 
 }
 
 /*========================================================
           Sections
 ========================================================*/
+.horoscope {
+  min-height: 800px;
+  margin:  0 auto;
+  width: 80%;
+  padding: 0;
+}
 
+#results {
+  margin-top: 40px;
+}
+
+/*changing title style*/
+h1 {
+  font-size: 50px;
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+/*Changing input box style*/
 input {
   margin: 10px 0;
   padding: 10px 1px;
   padding-right: 20px;
+  margin: 0 auto;
+  width: 45%;
+  font-size: 25px;
+  border-radius: 6px;
+  border-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
+/*changing button box style*/
 button {
   border-style: none;
-  background-color: orange;
+  background-color: rgba(0,0,0,0.6);
   border: none;
+  margin-top: 10px;
   padding: 10px 20px;
+  height: 40px;
   color: white;
-  font-weight: bold;
+  font-weight: 200;
+  font-size: 20px;
+  border-radius: 6px;
+}
+
+/*changing images*/
+img {
+  width: 200px;
+  border-radius: 100%;
+
 }

@@ -2,32 +2,63 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>JS Practice</title>
+    <title>Horoscope Page</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
     <!-- Change these file paths to connect your css and js files -->
     <link rel="stylesheet" href="css/style.css">
+
   </head>
 
+
+
+
+
   <body>
-    <!-- Making a div and giving it an id -->
-    <nav>
 
-    </nav>
-
+    <!-- Horoscope page-->
     <div class="horoscope">
+      <!-- Horoscope Title -->
       <h1 id="title"></h1>
-      <input type="text" name="" value="" id="zodiac" placeholder="Zodiac Sign"> <br>
-      <button type="button" name="button" id="clickMe">Get Your Horoscope</button>
+
+      <!-- Horoscope Input -->
+      <input type="text" name="" value="" id="zodiac" placeholder="Enter your zodiac sign"> <br>
+
+      <!-- Send message -->
+      <button type="button" name="button" id="clickMe"></button>
 
       <br>
 
+      <!-- Display results -->
       <div id="results">
+        <div class="container">
+          <div class="row">
+            <!-- zodiac image -->
+            <div class="col-md-3 col-md-offset-3">
+              <img id="zodiacImage" src="">
+            </div>
+
+            <!-- zodiac information -->
+            <div class="col-md-3">
+              <h2 id="zodiacTitle"></h2>
+              <br>
+              <p id="zodiacDate"></p>
+              <br>
+              <p id="zodiacInfo"></p>
+            </div>
+          </div>
+        </div>
       </div>
 
     </div>
-
-
-
-
 
 
 
