@@ -4,20 +4,20 @@
     <meta charset="utf-8">
     <title>Horoscope Page</title>
 
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Cookie|Rochester" rel="stylesheet">
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
     <!-- Change these file paths to connect your css and js files -->
     <link rel="stylesheet" href="css/style.css">
 
-  </head>
 
+  </head>
 
 
 
@@ -29,13 +29,13 @@
       <!-- Horoscope Title -->
       <h1 id="title"></h1>
 
-      <!-- Horoscope Input -->
+      <!-- Horoscope Input & Message-->
       <input type="text" name="" value="" id="zodiac" placeholder="Enter your zodiac sign"> <br>
-
-      <!-- Send message -->
       <button type="button" name="button" id="clickMe"></button>
-
       <br>
+
+      <!-- Message if wrong zodiac sign -->
+      <p id="warningMessage"></p>
 
       <!-- Display results -->
       <div id="results">
@@ -43,15 +43,13 @@
           <div class="row">
             <!-- zodiac image -->
             <div class="col-md-3 col-md-offset-3">
-              <img id="zodiacImage" src="">
+              <img id="zodiacImage">
             </div>
 
             <!-- zodiac information -->
             <div class="col-md-3">
               <h2 id="zodiacTitle"></h2>
-              <br>
-              <p id="zodiacDate"></p>
-              <br>
+              <p id="zodiacDate"></p> <br>
               <p id="zodiacInfo"></p>
             </div>
           </div>
